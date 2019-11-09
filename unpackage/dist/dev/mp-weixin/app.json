@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/volume/volume",
+    "pages/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#d81e06",
+    "backgroundColor": "#d81e06"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#D81E06",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计划",
+        "iconPath": "static/icon/wj-jh.png",
+        "selectedIconPath": "static/selectedIcon/wj-jh.png"
+      },
+      {
+        "pagePath": "pages/volume/volume",
+        "text": "交易额",
+        "iconPath": "static/icon/jiaoyiguanli.png",
+        "selectedIconPath": "static/selectedIcon/jiaoyiguanli.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/selectedIcon/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
